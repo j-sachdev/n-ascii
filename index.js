@@ -4,6 +4,7 @@ const AsciiArt = require("ascii-art");
 const multer = require("multer");
 var cors = require("cors");
 const dotenv = require("dotenv");
+const fs = require('fs');
 
 dotenv.config();
 
